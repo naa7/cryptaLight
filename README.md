@@ -4,6 +4,7 @@
 
 <img src="https://github.com/naa7/cryptaLight/blob/main/cryptaLight.gif"></br>
 
+
 The idea if this project is to make a program that tracks the price and related information of desired 
 cryptocurrencies and updates the prices every five seconds. CoinGecko's API is used for fetching data needed 
 by the program. To make it easier to track prices, the program updates every five seconds and if price changes, the
