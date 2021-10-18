@@ -21,5 +21,7 @@ all information. The light-version, `cryptaLight_lightVersion.py`, displays only
     $ cd cryptaLight
 
     $ python cryptaLight.py
-  or
+  
+    OR
+
     $ python cryptaLight_lightVersion.py
