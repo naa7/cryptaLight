@@ -19,7 +19,7 @@ all information. The light-version, `cryptaLight_lightVersion.py`, displays only
 
     $ cd && git clone https://github.com/naa7/cryptaLight.git
 
-    $ cd cryptaLight
+    $ cd cryptaLight/
 
     $ python cryptaLight.py
   
