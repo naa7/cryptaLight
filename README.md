@@ -8,8 +8,9 @@
 The idea if this project is to make a program that tracks the price and related information of desired 
 cryptocurrencies and updates the prices every five seconds. CoinGecko's API is used for fetching data needed 
 by the program. To make it easier to track prices, the program updates every five seconds and if price changes, the
-arrow blinks either up or down depending on the change from last update. In addition, if the crytocurrency percentage
-change in the last 24 hours is less than negative, it will display in red. Otherwise, it will display in green.
+arrow blinks either up or down depending on the change from last update. In addition, if the crytocurrency 
+percentage change in the last 24 hours is less than negative, it will display in red. Otherwise, it will display 
+in green.
 
 There are two versions of the program, full-version and light-version. The full-version, `cryptaLight.py`, displays
 all information. The light-version, `cryptaLight_lightVersion.py`, displays only coin's symbol and price.
