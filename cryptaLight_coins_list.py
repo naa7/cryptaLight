@@ -1,5 +1,8 @@
 ## To add a coin, uncomment it by removing the # before the it.
-## To remove a coin, just comment it out by adding # before it.  
+## To remove a coin, just comment it out by adding # before it.
+
+## Some coins are no longer on CoinGecko's coins list. Therefore,
+## adding such coins will make the program break.
 
 coins_list = [
 
@@ -10,7 +13,7 @@ coins_list = [
 	"dogecoin",
 	"stellar",
 #	"artex",
-	"bnbpay",
+#	"bnbpay",
 	"shiba-inu",
 #	"hamster",
 #	"tether",
