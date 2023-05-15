@@ -68,7 +68,7 @@ def coin_price():
 						print(str('|\033[32;1;5m🡅\033[0m | \033[31;1;82m'+name[0].upper()+'\033[0m') + " | \033[31;1;82m" + str(name[1].rjust(11))+ "\033[0m |")
 					else:
 						print(str('|\033[31;1;82m🡇\033[0m | \033[31;1;82m'+name[0].upper()+'\033[0m') + " | \033[31;1;82m" + str(name[1].rjust(11))+ "\033[0m |")
-				
+
 
 				counter = counter + 1
 
@@ -83,15 +83,15 @@ def coin_price():
 			print("+==========================+")
 			print("|       \033[33;1;82mQuit: ctrl+c\033[0m       |")
 			print("+==========================+")
-			
+
 			sys.stdout.write("\033[4A\033[K\r")
 
-			for i in range(6):
-				if i < 5:
-					print("|      \033[36;1;82mUpdating in",str(5-i).rjust(2)+'s', "\033[0m    |",end='\r')
+			for i in range(121):
+				if i < 120:
+					print("|      \033[36;1;82mUpdating in",str(120-i).rjust(2)+'s', "\033[0m    |",end='\r')
 				else:
 					print("|         \033[36;1;5mUpdating...\033[0m      |",end='\r')
-	
+
 				time.sleep(1)
 
 			counter = 0
