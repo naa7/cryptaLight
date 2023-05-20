@@ -93,9 +93,9 @@ def coin_price():
 
 			sys.stdout.write("\033[4A\033[K\r")
 
-			for i in range(121):
-				if i < 120:
-					print("|                                          \033[36;1;82mUpdating in",str(120-i).rjust(2)+'s', "\033[0m                                          |",end='\r')
+			for i in range(61):
+				if i < 60:
+					print("|                                          \033[36;1;82mUpdating in",str(60-i).rjust(2)+'s', "\033[0m                                          |",end='\r')
 				else:
 					print("|                                             \033[36;1;5mUpdating...\033[0m                                            |",end='\r')
 
